@@ -18,7 +18,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
-let allowedDomains = ["http://localhost:3000"];
+let allowedDomains = ["http://localhost:3000", "https://www.icpainstitute.com"];
 
 app.use(
   cors({
